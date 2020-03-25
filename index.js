@@ -21,13 +21,13 @@ function add2(n) {
 }
 // Feel free to move things around!
 
-var funkyFunction = function() {
+let funkyFunction = function() {
   return function() {
-    return "FUNKY!"
+    return `FUNKY!`;
   }
 }
 
-var theFunk = funkyFunction();
+let theFunk = funkyFunction();
 
 funkyFunction();
 
