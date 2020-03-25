@@ -27,7 +27,7 @@ let funkyFunction = function() {
   }
 }
 
-let theFunk = funkyFunction;
+
 let theFunk = funkyFunction()();
 
 
